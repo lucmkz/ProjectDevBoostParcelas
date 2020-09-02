@@ -40,6 +40,7 @@ input:hover {
 .main {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .form {
@@ -47,7 +48,8 @@ input:hover {
   flex-direction: column;
   justify-content: center;
   background: #dddeee;
-  max-width: 400px;
+  min-width: 395px;
+  width: 395px;
   border-radius: 4px;
   margin: 40px 80px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
